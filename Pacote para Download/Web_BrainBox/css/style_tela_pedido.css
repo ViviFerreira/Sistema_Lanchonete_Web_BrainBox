@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #f5f5f5;
+}
+
+.logo{
+    width: 65px;
+    height: 48px;
+    margin-top: -1em;
+    margin-left: 0.5em;
+}
+span{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 600;
+}
+.usuario{
+    width: 10em;
+    height: 50px;
+    margin-left: 83%;
+    margin-top: -3.5em;
+}
+p{
+    font-weight: 800;
+    font-size: 17px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+#exit{
+    font-size: 15px;
+}
+ol{
+    list-style: none;
+    margin-left: -40em;
+    text-align: center;
+    height: 15px;
+}
+
+ol li
+{
+    display: inline-block;
+}
+
+ol li a, ol li span
+{
+    display: inline-block;
+    margin-left: 0.50em;
+    padding-left: 0.5em;
+    text-decoration: none;
+    letter-spacing: 0.1px;
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed', sans-serif;
+    outline: 0;
+    color: #FFF;
+}
+
+ol li a:hover
+{
+    color:#F5DA81;
+    text-decoration: none;
+}
+.modal1__body a{
+    text-decoration: none;
+}
+.modal1__body {
+    margin-left:2em;
+    margin-top: 2.7em;
+}
+.modal1__body a:hover{
+    text-decoration: none;
+}
+#ops{
+    font-size: 20px;
+    color: #222;
+    margin-right: 10px;
+
+}
+#cont{
+    font-size: 20px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+select{
+    width: 250px; /* Tamanho do select, maior que o tamanho da div "div-select" */
+    border:1px solid #ddd;
+    border-radius: 5px;
+    cursor:pointer;
+    outline:none;
+    padding:5px;
+    margin-left: 1px;
+    box-sizing:border-box;
+    font-size: 0.9em;
+    margin-top: 0.5em;
+    font-family: 'Rubik', sans-serif;
+    transition:.3s;
+    color: #000;
+    font-size: 16px;
+}
+
+.menu ul{
+    width: 10%;
+    float: right;
+    margin-right: 89%;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.2);
+}
+.menu ul li {
+    border-bottom: 1px solid #CCC;
+    text-decoration: none;
+    text-align: center;
+    font-size:14px;
+    font-family: 'Rubik', sans-serif;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    list-style: none;
+    background: #E53935;
+    color:#fff;
+    cursor: pointer;
+    display: block;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-transform: uppercase;
+}
+.titulo{
+    width: 10%;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    list-style: none;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    font-size:16px;
+    font-family: 'Rubik', sans-serif;
+    padding-top:1em;
+    padding-left: 2.5em;
+    text-transform: uppercase;
+}
+.menu ul li:hover {
+    background-color:#FFF;
+    color:#E53935;
+    border-left: 1px solid #FFE0B2;
+    border-right: 1px solid #FFE0B2;
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.2);
+}
+.produtos{
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    color:#fff;
+    position: absolute;
+}
+
+.pedido{
+    width: 20%;
+    padding: 10px;
+    color:#fff;
+    float: right;
+    margin-right: 0.7em;
+    background-color:#f5f5f5;
+    margin-top: -12em;
+
+}
+.box_fora{
+    width: 100%;
+    background-color: #f5f5f5;
+    color:#000;
+    margin-top: 5px;
+}
+.box_produto{
+    width: 6em;
+    height: 110px;
+    margin-top: 5px;
+    display: inline-block;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.2);
+}
+.box_produto p{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 15px;
+}

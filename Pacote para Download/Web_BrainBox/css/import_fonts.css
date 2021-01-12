@@ -1,0 +1,29 @@
+@font-face{
+     font-family: 'Open Sans Condensed';
+     src:url(fonts/OpenSansCondensed-Bold.ttf);
+     src:url(fonts/OpenSansCondensed-Light.ttf);
+}
+@font-face{
+     font-family: 'Roboto Condensed';
+     src:url(fonts/RobotoCondensed-Regular.ttf);
+     src:url(fonts/RobotoCondensed-Light.ttf);
+}
+@font-face{
+    font-family:'Rubik';
+    src:url(fonts/Rubik-Regular.ttf);
+}
+@font-face{
+    font-family: 'Nanum Gothic';
+    src:url(fonts/NanumGothic-Bold.ttf);
+    src:url(fonts/NanumGothic-Regular.ttf);
+}
+@font-face{
+    font-family: 'Noto Sans KR';
+    src:url(fonts/NotoSansKR-Bold.otf);
+    src:url(fonts/NotoSansKR-Regular.otf);
+}
+@font-face{
+    font-family: 'Lato';
+    src:url(fonts/Lato-Bold.ttf);
+    src:url(fonts/NanumGothic-Regular.ttf);
+}

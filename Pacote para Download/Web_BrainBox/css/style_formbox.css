@@ -1,0 +1,199 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#F9FBE7;
+    font-family: 'Rubik', sans-serif;
+    background-size: cover;
+
+}
+button{
+     border: none!important;
+    outline: none!important;
+}
+#logo
+{
+    padding: 1em 0em;
+    text-align: center;
+}
+.icon{
+    width:40px;
+    height: 40px;
+    margin-top:1%;
+    margin-left:1%;
+    padding: 1px 1px;
+}
+
+.loginbox{
+    width: 27%;
+    color: #fff;
+    background: #FFF;
+    top: 50%;
+    left: 50%;
+    margin-top: 2em;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 30px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    font-family: 'Rubik', sans-serif;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+.avatar{
+    width: 120px;
+    height: 90px;
+    border-radius: 0%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 40px);
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size:1.1em;
+    color:#32282D;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+}
+ul{
+    float: left; 
+    margin-left: -20px;
+}
+ul li {
+    margin: 0;
+    padding: 2px 5px;
+    display: inline;
+    padding: 5px 5px;
+    background-color: #E53935;
+}
+a{
+    text-decoration: none;
+    color:#fff;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size:1em;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+}
+a:hover{
+    color:#FFEB3B;
+}
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color:#32282D;
+    text-transform: uppercase;
+
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.loginbox input[type="text"], input[type="password"], input[type="email"]
+{
+    width:100%;
+    border:1.3px solid #CFD8DC;
+    margin-top:5px;
+    outline:none;
+    padding:8px;
+    background: #F5F5F5;
+    box-sizing:border-box;
+    font-size: 0.9em;
+    font-family: 'Rubik', sans-serif;
+    transition:.3s;
+    color: #32282D;
+    font-size: 16px;
+}
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #343a40;
+    color: #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+    margin-top: 18px;
+    font-family: 'Rubik', sans-serif;
+}
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #D32F2F;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    color:#32282D;
+    font-family: 'Rubik', sans-serif;
+}
+.loginbox input[type=email]:focus{
+    border-color:#E53935;
+    box-shadow:0 0 0px 0 #E53935;
+}
+.loginbox input[type=password]:focus{
+    border-color:#E53935;
+    box-shadow:0 0 0px 0 #E53935;
+}
+
+.loginbox a:hover
+{
+    color: #D32F2F;
+}
+
+
+:-webkit-input-placeholder {
+    color:#737273;
+    font-weight: 500; 
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color:#32282D;  
+    font-weight: 500; 
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    color:#32282D;  
+    font-weight: 500; 
+}
+
+:-ms-input-placeholder {  
+    color: #32282D; 
+    font-weight: 500; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
